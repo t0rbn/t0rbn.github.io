@@ -1,0 +1,50 @@
+@font-face {
+    font-family: djs;
+    src: url('DejaVuSans.ttf');
+}
+
+body {
+  background-color: #111111;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: linear-gradient(to right, #FFCF00, #F42DBF);
+  color: #111111;
+  font-family: djs;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin: 0;
+  padding: 10vw 5rem 5vw 5rem;
+  text-align: center;
+}
+
+.divider {
+  background: linear-gradient(to right, #FFCF00, #F42DBF);
+  height: 5vw;
+  margin-top: -2.5vw;
+  transform: skewY(2.862deg);
+}
+
+.links {
+  padding: 10vw 5rem 0 5rem;
+  text-align: center;
+}
+
+.links a {
+  color: #cccccc;
+  display: inline;
+  font-family: djs;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.links a:hover {
+  border: solid 0 #FFCF00;
+  border-bottom-width: 0.25rem;
+  color: #F42DBF;
+}
