@@ -1,61 +1,83 @@
-@font-face {
-    font-family: mono;
-    src: url('DejaVuSansMono.ttf');
+body {
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  background-color: #424242;
-  box-sizing: border-box;
-  font-family: mono;
-}
 
 .content {
-  background-color: #212121;
-  bottom: 10vw;
-  box-shadow: 0 14px 28px #212121;
-  color: #e2f1f8;
-  font-family: mono;
-  left: 10vw;
-  padding: 0.5rem;
-  position: absolute;
-  right: 10vw;
-  top: 10vw;
-}
-
-strong {
-  color: #76ff03;
-}
-
-.input {
-  background-color: #212121;
-  border: 0;
-  color: #e2f1f8;
-  font-family: mono;
-  font-size: 1rem;
-  height: 1rem;
-  line-height: 1rem;
-  outline: none;
-}
-
-.output {
+  width: 1280px;
+  height: 1024px;
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 128px;
   box-sizing: border-box;
-  margin-bottom: -1rem;
-  max-height: 100%;
-  overflow: hidden;
-  padding-bottom: 1rem;
-  width: 100%;
 }
 
-.output p {
-  margin: 0;
-  white-space: pre-wrap;
+.introduction {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ffff00;
 }
 
-@media screen and (max-width: 480px) {
-  .content {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
+.links {
+  margin-top: 64px;
+  list-style: none;
+}
+
+.link {
+  height: 64px;
+  margin-bottom: 13px;
+}
+
+.link__github {
+  width: 245px;
+}
+
+.link__twitter {
+  width: 276px;
+}
+
+.link__instagram {
+  width: 140px
+}
+
+.link__xing {
+  width: 165px;
+}
+
+.link__telegram {
+  width: 220px;
+}
+
+.link__email {
+  width: 172px;
+}
+
+.catfinder {
+  position: relative;
+}
+
+.globe {
+  position: absolute;
+  top: 13px;
+  left: 24px;
+  width: 100px;
+  height: 75px;
+}
+
+.jesus {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  height: 300px;
+  width: 260px;
+}
+
+.resolution {
+  margin-top: 128px;
+  font-size: 13px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #ff0000;
 }
