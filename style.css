@@ -4,22 +4,23 @@
 }
 
 body {
-  background-color: #424242;
+  background-color: #000;
   box-sizing: border-box;
   font-family: mono;
 }
 
 .content {
-  background-color: #212121;
-  bottom: 10vw;
-  box-shadow: 0 14px 28px #212121;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #76ff03;
+  bottom: 15vw;
   color: #e2f1f8;
   font-family: mono;
   left: 10vw;
-  padding: 0.5rem;
+  padding: 1rem;
   position: absolute;
   right: 10vw;
-  top: 10vw;
+  top: 15vw;
 }
 
 strong {
@@ -27,7 +28,7 @@ strong {
 }
 
 .input {
-  background-color: #212121;
+  background-color: inherit;
   border: 0;
   color: #e2f1f8;
   font-family: mono;
