@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>uberbert</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#212121">
+  <link rel="stylesheet" type="text/css" href="uberbert.css">
+
+  </head>
+
+<body>
+  <div class="container">
+    <div class="counter js_counter"></div>
+    <div class='unit'>days</div>
+    <a href="#" class="refresh" onclick="updateDate">refresh</a>
+  </div>
+
+  <script>
+  var startDate = new Date('2019-01-22')
+  var nowDate = new Date()
+
+  function updateDate() {
+      var diff =  Math.round(
+        (nowDate - startDate) / (1000 * 60 * 60 * 24)
+      );
+
+      document.querySelector('.js_counter').innerHTML = diff;
+  }
+
+  updateDate()
+  </script>
+
+</body>
+
+</html>

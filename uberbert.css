@@ -1,0 +1,47 @@
+@font-face {
+    font-family: mono;
+    src: url('DejaVuSansMono.ttf');
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #ff9900;
+   background-image: linear-gradient(#ff9900, #ff0080);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: mono;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.counter {
+  font-size: 10rem;
+  line-height: 7rem;
+  font-weight: 800;
+}
+
+.unit {
+  font-size: 2rem;
+}
+
+.refresh {
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #000;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  margin-top: 5rem;
+  display: inline-block;
+  font-size: 1rem;
+}
