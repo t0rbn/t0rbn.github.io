@@ -12,25 +12,9 @@
 
 <body>
   <div class="container">
-    <div class="counter js_counter"></div>
-    <div class='unit'>days</div>
-    <a href="#" class="refresh" onclick="updateDate">refresh</a>
+    <div class="claim">uberbert ist tot!</div>
+    <div class='subline'>Lang lebe uberbert!</div>
   </div>
-
-  <script>
-  var startDate = new Date('04 Mar 2019 14:55:00 GMT+0100')
-  var nowDate = new Date()
-
-  function updateDate() {
-      var diff =  Math.round(
-        (nowDate - startDate) / (1000 * 60 * 60 * 24)
-      );
-
-      document.querySelector('.js_counter').innerHTML = diff;
-  }
-
-  updateDate()
-  </script>
 
 </body>
 
