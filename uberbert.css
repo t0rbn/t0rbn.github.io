@@ -24,24 +24,6 @@ body {
   width: 100%;
 }
 
-.claim {
-  font-size: 10rem;
-  line-height: 7rem;
-  font-weight: 800;
-}
-
-.subline {
+p {
   font-size: 2rem;
-}
-
-.refresh {
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: #000;
-  text-decoration: none;
-  color: inherit;
-  padding: 1rem;
-  margin-top: 5rem;
-  display: inline-block;
-  font-size: 1rem;
 }
