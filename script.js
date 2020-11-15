@@ -137,6 +137,10 @@ function availableCommands() {
       description: 'Doing serious business',
       run: () => openLink('https://www.xing.com/profile/Torben_Reetz2')
     },
+    linkedin: {
+      description: 'Doing serious *international* business',
+      run: () => openLink('https://www.linkedin.com/in/torben-reetz-5151a513b/')
+    },
     telegram: {
       description: 'Ping me!',
       run: () => openLink('https://www.telegram.me/t0rbn')
