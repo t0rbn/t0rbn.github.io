@@ -145,10 +145,6 @@ function availableCommands() {
       description: 'Ping me!',
       run: () => openLink('https://www.telegram.me/t0rbn')
     },
-    email: {
-      description: 'Spam',
-      run: () => openLink('mailto:hello@torben.xyz')
-    },
     help: { run: () => printHelp() },
     clear: { run: () => clear() },
     welcome: { run: () => welcome() },
