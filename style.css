@@ -7,14 +7,9 @@ body {
     background: linear-gradient(-45deg, #C47780, #151C4B, #3F24B4, #F86331, #13FEA0, #B82FC1, #41FDEA, #7980D0, #A8E074, #DB82E6, #0B0CA3, #7A8315, #0935DC, #FBAC51, #C35B8D, #2AAF21, #B0EE6E, #4CB6EC, #61677B, #60EDA7);
     background-size: 1000% 1000%;
     animation: 60s linear infinite background-shift;
-
 }
 
-header {
-    margin-bottom: 5rem;
-}
-
-header img {
+.hero-image{
     animation: 2s ease both infinite header-boing;
 }
 
@@ -26,7 +21,6 @@ main {
     justify-content: center;
     max-width: 66rem;
     margin: 0 auto;
-
 }
 
 main a {
@@ -41,7 +35,7 @@ main a {
 }
 
 main a .link-label {
-    background-color: #eeeeee;
+    background-color: #bbbbbb;
     padding: 0.5rem
 }
 
