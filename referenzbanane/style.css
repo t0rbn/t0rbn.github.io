@@ -1,0 +1,110 @@
+@font-face {
+    font-family: PoppinsLights;
+    src: url(Poppins-Light.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    --size-m: 1em;
+    --size-l: 2rem;
+    --size-xl: 3rem;
+
+    --color-bg: rgba(255, 255, 255, 0.75);
+    --blur-bg: blur(var(--size-m));
+
+    --gradient-button: linear-gradient(175deg, #bae734, #ffcc33, #b95400);
+    font-family: PoppinsLights, sans-serif;
+}
+
+.container-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.container-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--size-xl);
+}
+
+.background {
+    padding: var(--size-m);
+    background-color: var(--color-bg);
+    backdrop-filter: var(--blur-bg);
+}
+
+
+footer, header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top-right-radius: var(--size-m);
+    border-top-left-radius: var(--size-m);
+}
+
+footer {
+    bottom: 0;
+}
+
+footer .meter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .meter .emoji {
+    font-size: var(--size-xl);
+    line-height: var(--size-xl);
+}
+
+button {
+    width: 100%;
+
+    font-size: var(--size-m);
+    line-height: var(--size-m);
+    padding: var(--size-m);
+    border-radius: var(--size-xl);
+    text-align: center;
+    background-color: white;
+    border: none;
+    color: unset;
+    text-decoration: none;
+    background-image: var(--gradient-button);
+    font-family: inherit;
+}
+
+
+.tutorial {
+    display: none;
+    position: absolute;
+    top: vaR(--size-l);
+    left: vaR(--size-l);
+    right: vaR(--size-l);
+    padding: var(--size-m);
+    background-color: var(--color-bg);
+    backdrop-filter: var(--blur-bg);
+    z-index: 1;
+    border-radius: var(--size-m)
+
+
+}
