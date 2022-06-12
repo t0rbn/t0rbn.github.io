@@ -3,7 +3,7 @@ const defaultBanana = [227, 179, 45]
 async function initVideo() {
     const videoPlayer = document.querySelector('#video')
     try {
-        videoPlayer.srcObject = await window.navigator.mediaDevices.getUserMedia({video: true})
+        videoPlayer.srcObject = await window.navigator.mediaDevices.getUserMedia({video: { facingMode: { ideal: "environment" } }})
         videoPlayer.onloadedmetadata = (e) => {
             videoPlayer.play()
         }
