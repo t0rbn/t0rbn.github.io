@@ -4,15 +4,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(-45deg, #C47780, #151C4B, #3F24B4, #F86331, #13FEA0, #B82FC1, #41FDEA, #7980D0, #A8E074, #DB82E6, #0B0CA3, #7A8315, #0935DC, #FBAC51, #C35B8D, #2AAF21, #B0EE6E, #4CB6EC, #61677B, #60EDA7);
-    background-size: 1000% 1000%;
-    animation: 60s linear infinite background-shift;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
 }
 
 .hero-image{
     animation: 2s ease both infinite header-boing;
 }
-
 
 main {
     display: flex;
@@ -24,6 +22,8 @@ main {
 }
 
 main a {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(1rem);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,11 +32,6 @@ main a {
     padding: 1rem;
     border: 0.5rem solid transparent;
     color: #0000ff;
-}
-
-main a .link-label {
-    background-color: #bbbbbb;
-    padding: 0.5rem
 }
 
 main a img {
@@ -65,71 +60,5 @@ main a:hover {
     }
     100% {
         transform: translateX(-10rem) scaleX(80%);
-    }
-}
-
-@keyframes background-shift {
-    0% {
-        background-position: 56% 31%;
-    }
-    5% {
-        background-position: 39% 26%;
-    }
-    10% {
-        background-position: 22% 71%;
-    }
-    15% {
-        background-position: 17% 72%;
-    }
-    20% {
-        background-position: 65% 13%;
-    }
-    25% {
-        background-position: 50% 61%;
-    }
-    30% {
-        background-position: 72% 76%;
-    }
-    35% {
-        background-position: 81% 34%;
-    }
-    40% {
-        background-position: 71% 51%;
-    }
-    45% {
-        background-position: 84% 7%;
-    }
-    50% {
-        background-position: 66% 3%;
-    }
-    55% {
-        background-position: 10% 30%;
-    }
-    60% {
-        background-position: 23% 94%;
-    }
-    65% {
-        background-position: 93% 50%;
-    }
-    70% {
-        background-position: 3% 95%;
-    }
-    75% {
-        background-position: 25% 25%;
-    }
-    80% {
-        background-position: 3% 89%;
-    }
-    85% {
-        background-position: 13% 84%;
-    }
-    90% {
-        background-position: 50% 74%;
-    }
-    95% {
-        background-position: 36% 90%;
-    }
-    100% {
-        background-position: 47% 77%;
     }
 }
