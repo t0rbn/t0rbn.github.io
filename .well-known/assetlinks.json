@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "xyz.t0rbn.faerbl.pwabuilder",
+        "sha256_cert_fingerprints": ["9B:50:5A:08:24:2B:3F:7C:79:48:69:98:EF:37:7D:6F:EB:07:EB:F8:97:CB:83:C7:9C:B0:A7:62:E6:42:BE:DC"]
+      }
+    }]
